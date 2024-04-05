@@ -1,0 +1,139 @@
+.productdisplay {
+  display: flex;
+  flex-direction: row;
+  margin: 0 8rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productdisplay-left {
+  display: flex;
+  gap: 17px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Adjust the gap as needed */
+}
+
+.productdisplay-img-list img {
+  height: 150px; /* Adjust the height as needed */
+}
+
+.productdisplay-main-img {
+  width: 400px; /* Adjust the width as needed */
+  height: 623px; /* Maintain the aspect ratio */
+}
+
+.productdisplay-right {
+  margin: 0 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.productdisplay-right-stars {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  gap: 5px;
+  color: #1c1c1c;
+  font-size: 1rem;
+}
+
+.productdisplay-right-prices {
+  display: flex;
+  margin: 40px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.productdisplay-right-price-old {
+  color: #818181;
+  text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+  color: #ff4141;
+  margin-left: 1.25rem;
+}
+
+.productdisplay-right-size h1 {
+  margin-top: 55px;
+  color: #656565;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+  display: flex;
+  margin: 1.875rem 0;
+  gap: 1.25rem;
+}
+
+.productdisplay-right-sizes div {
+  padding: 18px 24px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.productdisplay-right-sizes .selected {
+  border-color: #007bff; /* Change the border color to your preferred highlight color */
+}
+
+.productdisplay-right button {
+  padding: 1.25rem 40px;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #ff4141;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.productdisplay-right button:hover {
+  transform: scale(1.08);
+  transition: 0.25s all ease-in-out;
+}
+
+.productdisplay-right-category {
+  margin-top: 0.625rem;
+}
+
+.productdisplay-right-category span {
+  font-weight: 600;
+}
+
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem 0;
+  width: 100%;
+}
+
+.new-collections h1 {
+  color: #171717;
+  font-size: 3.125rem;
+  font-weight: 600;
+}
+
+.new-collections hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 0.625rem;
+  background: #252525;
+}
+
+.collections {
+  margin-top: 4rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.875rem; /* 可选：定义格子之间的间隔 */
+}
